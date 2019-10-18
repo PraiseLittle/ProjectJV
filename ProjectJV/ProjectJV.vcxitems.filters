@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{7f223299-5655-46ce-bc9a-5ca94e59b40c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images">
+      <UniqueIdentifier>{aacccfaf-9b79-47f3-b610-84185394aa71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CostaEngine">
+      <UniqueIdentifier>{2c87b74d-5686-448f-9e70-503a9c430ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CostaEngine\Source">
+      <UniqueIdentifier>{4097298c-03be-49d2-a0e7-1cffe0e73297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CostaEngine\Source\Include">
+      <UniqueIdentifier>{f07e58be-d643-43ac-868a-a662408511a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CostaEngine\Source\Src">
+      <UniqueIdentifier>{980e2cea-1eda-474b-81fd-e6e3c85aacf0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)MemoryManager.cpp">
+      <Filter>Source\CostaEngine\Source\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MemoryManager.h">
+      <Filter>Source\CostaEngine\Source\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
